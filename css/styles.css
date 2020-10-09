@@ -1,0 +1,134 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.row{
+  margin: 0;
+  padding: 3% 0;
+}
+
+.bg-img1{
+  position: absolute;
+  top: 6%;
+  right: 5%;
+}
+
+.bg-img2{
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+
+.bg-img3{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.img{
+  background: url(../images/pattern-bg.svg) no-repeat center;
+  background: cover;
+  height: 700px;
+  position: absolute;
+  right: 0;
+}
+
+.testemonial-img{
+  position: absolute;
+  top:10%;
+  right: 15%;
+  box-sizing: border-box;
+  -webkit-box-shadow: 0 3px 5px -3px hsl(240, 38%, 20%);
+-moz-box-shadow: 0 3px 5px -3px hsl(240, 38%, 20%);
+box-shadow: 0 10px 10px -5px hsl(240, 38%, 20%);
+}
+
+.review-box{
+  font-size: 2rem;
+  margin-top: 10%;
+  position: relative;
+  left: 12%;
+  background: url(../images/pattern-quotes.svg) no-repeat;
+}
+
+.testemonial-name, .testemonial-occ{
+  display: inline-block;
+  font-size: 1.5rem;
+}
+
+.testemonial-name{
+  color: hsl(240, 38%, 20%);
+  font-weight: bold;
+}
+
+.testemonial-occ{
+  color: hsl(240, 18%, 77%);
+}
+
+.row{
+  height: 100%;
+  padding-bottom: 250px;
+}
+
+.carousel-controls{
+  position: relative;
+  width: 6%;
+  left: 60%;
+  height: 50px;
+  background-color: white;
+  top:-120px;
+  border-radius: 20px;
+}
+
+.icon-prev{
+  margin-left: 15px;
+}
+
+.icon-nxt{
+  margin-right: 15px;
+}
+
+footer{
+  background: url(../images/pattern-curve.svg) no-repeat bottom left;
+  text-align: center;
+  font-size: 1.4rem;
+  padding: 15% 0 2% 0;
+}
+
+@media (max-width:1319px) {
+  .carousel-controls{
+    top: auto;
+    bottom: 180px;
+  }
+}
+
+@media (max-width:1220px) {
+  .review-box{
+    left:5%;
+  }
+}
+
+@media (max-width:991px) {
+  .img{
+    position: relative;
+  }
+  .testemonial-img{
+    margin: auto;
+  }
+  .review-box{
+    text-align: center;
+    left: auto;
+    margin: auto;
+  }
+  .testemonial-name, .testemonial-occ{
+    display: block;
+  }
+  .carousel-controls{
+    width: 10%;
+    top: auto;
+    bottom: 680px;
+    left:45%;
+  }
+}
