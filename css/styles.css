@@ -108,6 +108,9 @@ footer{
   .review-box{
     left:5%;
   }
+   .second-row{
+    padding-bottom: 150px;
+  }
 }
 
 @media (max-width:991px) {
@@ -130,5 +133,8 @@ footer{
     top: auto;
     bottom: 680px;
     left:45%;
+  }
+    .second-row{
+    padding-bottom: 250px;
   }
 }
